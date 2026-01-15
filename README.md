@@ -1,83 +1,47 @@
 # Portfolio - Adrien Lassus
 
-Portfolio personnel pour la recherche d'alternance et de stage.
+Mon portfolio personnel pour ma recherche d'alternance. Un site moderne et animé qui présente mes projets, mes compétences et mon parcours.
 
-## Stack Technique
-
-- **Framework**: Next.js 14 (App Router)
-- **Langage**: TypeScript
-- **Styles**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Déploiement**: Vercel (recommandé)
-
-## Installation
+## 🚀 Démarrage rapide
 
 ```bash
-# Installer les dépendances
 npm install
-
-# Lancer le serveur de développement
 npm run dev
-
-# Build pour la production
-npm run build
-
-# Lancer la version production
-npm start
 ```
 
-Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
+C'est tout ! Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-## Structure du Projet
+## 📦 Ce que j'utilise
 
-```
-Portfolio/
-├── app/                      # Pages Next.js
-│   ├── layout.tsx           # Layout principal
-│   ├── page.tsx             # Page d'accueil
-│   └── globals.css          # Styles globaux
-├── components/
-│   ├── sections/            # Sections du portfolio
-│   │   ├── HeroSection.tsx
-│   │   ├── FlagshipProject.tsx
-│   │   ├── InfrastructureLab.tsx
-│   │   ├── SecurityJourney.tsx
-│   │   ├── TechStack.tsx
-│   │   └── ContactFooter.tsx
-│   └── ui/                  # Composants UI réutilisables
-│       └── Button.tsx
-├── lib/
-│   └── utils/
-│       └── constants.ts     # Constantes et données
-└── public/
-    └── images/              # Images du portfolio
-```
+- **Next.js 14** - Framework React avec App Router
+- **TypeScript** - Pour un code plus sûr
+- **Tailwind CSS** - Pour le style
+- **Framer Motion** - Pour les animations
 
-## Sections
+## 🎨 Ce que vous trouverez
 
-1. **Hero Section**: Présentation avec photo, tagline et boutons CTA
-2. **Flagship Project**: Présentation de PrepAvenir avec stack technique
-3. **Infrastructure Lab**: Projets DynFi et DaVinciCode
-4. **Security Journey**: Parcours cybersécurité avec Root-Me, HTB, TryHackMe
-5. **Tech Stack**: Compétences techniques organisées par catégories
-6. **Contact Footer**: Disponibilité et liens de contact
+- Une animation terminal au premier chargement
+- Ma présentation avec logo ESILV
+- Mes projets : PrepAvenir, DynFi, DaVinciCode
+- Mon parcours en cybersécurité
+- Mes compétences techniques
+- Un CV téléchargeable
 
-## Personnalisation
+## ✏️ Personnaliser
 
-Les informations personnelles sont dans `lib/utils/constants.ts`. Modifiez ce fichier pour mettre à jour :
-- Liens (GitHub, LinkedIn, Root-Me, etc.)
-- Informations personnelles
-- Stack technique
-- Détails des projets
+Toutes mes infos sont dans `lib/utils/constants.ts`. C'est là que je stocke mes liens, mes projets et mes compétences. Modifiez ce fichier pour adapter le contenu à votre profil.
 
-## Déploiement
+## 🌐 Déployer
 
-Le projet est prêt à être déployé sur Vercel :
+Le site est prêt pour Vercel :
+1. Poussez votre code sur GitHub
+2. Connectez votre repo à Vercel
+3. C'est parti ! Vercel détecte Next.js automatiquement
 
-1. Pousser le code sur GitHub
-2. Connecter le repository à Vercel
-3. Vercel détectera automatiquement Next.js et configurera le déploiement
+## 📝 Note
 
-## Licence
+Ce portfolio est en français et reflète mon parcours d'étudiant ingénieur en recherche d'alternance.
 
-Tous droits réservés © 2026 Adrien Lassus
+---
+
+© 2026 Adrien Lassus
